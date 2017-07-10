@@ -1,0 +1,176 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:2:1-60:12
+	package
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\AndroidManifest.xml:20:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:7:9-38
+		INJECTED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:6:9-34
+		INJECTED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:9:5-60
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:9:19-57
+uses-feature#android.hardware.camera.flash
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:10:19-63
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:11:5-70
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:11:19-67
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:13:22-62
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:16:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:17:22-77
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:20:5-71
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:20:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:21:5-71
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:21:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:22:5-72
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:22:22-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:23:22-64
+android:uses-permission#android.permission.READ_CALL_LOG
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:25:30-77
+application
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:27:5-58:19
+MERGED from [com.android.support:design:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:25.0.1] C:\Users\turtl\Desktop\heart\heart\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:30:9-41
+	android:supportsRtl
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:31:9-35
+	android:allowBackup
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:28:9-35
+	android:icon
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:29:9-43
+	android:theme
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:32:9-40
+activity#com.example.a12146325.heart.LoginActivity
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:33:9-42:20
+	android:screenOrientation
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:36:13-49
+	android:configChanges
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:35:13-63
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:34:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:37:13-41:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:40:27-74
+activity#com.example.a12146325.heart.Heartrate.HeartRateMonitor
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:43:9-64
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:43:19-61
+activity#com.example.a12146325.heart.Group.GroupCreationActivity
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:44:9-65
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:44:19-62
+activity#com.example.a12146325.heart.Group.GroupListActivity
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:45:9-61
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:45:19-58
+activity#com.example.a12146325.heart.Group.GroupInvite
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:46:9-55
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:46:19-52
+activity#com.example.a12146325.heart.Train
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:47:9-48:46
+	android:label
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:48:13-43
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:47:19-40
+activity#Heartrate.HeartRateMonitor
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:49:9-50:52
+	android:label
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:50:13-50
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:49:19-60
+activity#com.example.a12146325.heart.StartTrain
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:51:9-52:50
+	android:label
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:52:13-48
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:51:19-45
+activity#com.example.a12146325.heart.JoinActivity
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:53:9-59
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:53:19-47
+activity#com.example.a12146325.heart.MainActivity
+ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:54:9-56:60
+	android:label
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:56:13-57
+	android:name
+		ADDED from C:\Users\turtl\Desktop\heart\heart\app\src\main\AndroidManifest.xml:55:13-41

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FFE400">
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dip"
+            android:background="#FFE400"
+            android:clickable="true"
+            android:text="〈〈"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_margin="10dip"
+            android:gravity="center"
+            android:text="나 의 그 룹 목 록"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/group_list"
+            android:layout_width="match_parent"
+            android:layout_height="232dp"></ListView>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:divider="#ffcc22"
+            android:dividerHeight="1.5dp">
+        </ListView>
+    </LinearLayout>
+</LinearLayout>
