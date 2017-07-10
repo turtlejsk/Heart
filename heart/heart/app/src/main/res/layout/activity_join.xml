@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FFE400">
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dip"
+            android:background="#FFE400"
+            android:text="〈〈"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_join"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_margin="10dip"
+            android:gravity="center"
+            android:text="회 원 가 입"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dip"
+            android:background="#FFE400"
+            android:text="저장"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dip"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="95sp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:gravity="center"
+                android:text="ID"
+                android:textColor="#000000"
+                android:textSize="15dp"></TextView>
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="wrap_content"
+                android:ems="4"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_e_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:padding="5dp"
+                android:layout_marginLeft="120dip"
+                android:text="이메일 중복확인"
+                android:background="#F5F5F5"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/tv_possiblemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dip"
+                android:text=""
+                android:textSize="7pt"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_passwd"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:gravity="center"
+                android:text="비밀번호"
+                android:textColor="#000000"
+                android:textSize="15dp"></TextView>
+
+            <EditText
+                android:id="@+id/et_passwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:ems="10"
+                android:textColor="#000000"
+                android:inputType="textPassword"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_pwconfirm"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:gravity="center"
+                android:text="비밀번호\n확인"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/et_pwconfirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#000000"
+                android:inputType="textPassword"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

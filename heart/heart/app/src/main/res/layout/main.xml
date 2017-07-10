@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.a12146325.heart.MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Practice!"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="check heartrate"
+        android:id="@+id/checking"
+        android:layout_below="@+id/setting"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Start Train"
+        android:id="@+id/start"
+        android:onClick="onClick"
+        android:layout_below="@+id/checking"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Train List"
+        android:textSize="20dp"
+        android:id="@+id/list"
+        android:layout_below="@+id/groupL"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Heart Rate : "
+        android:textSize="20dp"
+        android:id="@+id/heartrate"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Group Creation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start"
+        android:layout_alignStart="@+id/start"
+        android:id="@+id/groupC"
+        android:onClick="onClick"
+        android:layout_alignEnd="@+id/start" />
+
+    <Button
+        android:text="Group List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/groupC"
+        android:id="@+id/groupL"
+        android:onClick="onClick"
+        android:layout_alignStart="@+id/groupC"
+        android:layout_alignEnd="@+id/groupC" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="set practice"
+        android:id="@+id/setting"
+        android:onClick="onClick"
+        android:layout_below="@+id/heartrate"
+        android:layout_alignStart="@+id/checking" />
+
+
+</RelativeLayout>
